@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://FitFlex:FitFlex@fitflex.x37flin.mongodb.net/gym?retryWrites=true&w=majority&appName=FitFlex
+      database: gym
+server:
+  port: 8081
+
+#azure.blob-storage.connection-string: BlobEndpoint=https://gymly.blob.core.windows.net/;QueueEndpoint=https://gymly.queue.core.windows.net/;FileEndpoint=https://gymly.file.core.windows.net/;TableEndpoint=https://gymly.table.core.windows.net/;SharedAccessSignature=sv=2022-11-02&ss=bfqt&srt=o&sp=rwdlacupiytfx&se=2024-05-31T14:22:57Z&st=2024-04-23T06:22:57Z&spr=https&sig=NQigCMK1b4cr3YY4bm3pkX7Ctho3B3KybR%2BoSXHistk%3D
+#spring.cloud.azure.storage.blob.container-name: posts

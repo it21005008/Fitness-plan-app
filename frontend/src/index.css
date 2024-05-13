@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-900 text-white;
+}
+
+label {
+  @apply text-xs text-white font-semibold;
+}
+
+.MainButton {
+  @apply text-sm bg-indigo-600 w-full px-4 py-1.5 text-white font-semibold rounded-lg;
+}
+
+.FormInput {
+  @apply w-full bg-slate-800 border border-slate-600 rounded-lg py-1.5 px-3 placeholder:text-slate-500 placeholder:text-sm mt-0.5;
+}
+
+input {
+  @apply w-full bg-slate-800 border border-slate-600 rounded-lg py-1.5 px-3 placeholder:text-slate-500 placeholder:text-sm mt-0.5;
+}
+
+textarea {
+  @apply w-full bg-slate-800 border border-slate-600 rounded-lg py-1.5 px-3 placeholder:text-slate-500 placeholder:text-sm mt-0.5;
+}
+
+select {
+  @apply w-full bg-slate-800 border border-slate-600 rounded-lg py-1.5 px-3 placeholder:text-slate-500 placeholder:text-sm mt-0.5;
+}
